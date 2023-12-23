@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width,initial-scale=1.0">
+    <title>Fortune</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            background-color: #eee;
+        }
+        .flex{
+            display: flex;
+        }
+        .left{
+            display: flex;
+            width: 20%;
+            height: 600px;
+            background-color: aqua;
+            border-radius: 10px 10px 10px 10px;
+            border: 5px solid black;
+            box-shadow: 10px 10px 5px rgb(59, 58, 58);
+        }
+        .right{
+            height: 700px;
+            width: 80%;
+            background-color: rgb(27, 79, 124);
+        }
+        .cebian{
+            background-color: rgba(19, 34, 34, 0.329);
+            border: 5px solid rgba(19, 34, 34, 0.329);
+            border-radius: 2px;
+            margin: 5px;
+        }
+        .word{
+            font-size:150px;
+            line-height: 50vh;
+            width: 100%;
+            text-align:center;
+            color: rgba(0, 0, 0, 0.1);
+        }
+        button{
+            color:white;
+            background-color:  rgb(82, 149, 226);
+            border:0;
+            margin: 5px;
+            height: 50px;
+            font-size: 20px;
+            border-radius: 5px ;
+        }
+    </style>
+</head>
+<body class="flex">
+    <div class="left" style="flex-direction: column;">
+        <div class="flex" style="aspect-ratio: 2.5/1;">
+            <img src="logo1.png" alt="logo" width="40%" style="aspect-ratio: 1/1;"/>
+            <div style="width: 60%;aspect-ratio: 3/2;">
+                <div style="font-size:50px;text-align:center;width: 100%;aspect-ratio:9/4">刘财福</div>
+                <div style="font-size:20px;text-align:center;width: 100%;aspect-ratio:9/2">Fortune Liu</div>
+            </div>
+        </div>
+        <button type="button" onclick="window.location.href='../site/home.html'">description/home</button>
+        <button type="button" onclick="window.location.href='../site/blog.html'">blog</button>
+        <button type="button" onclick="window.location.href='../site/link.html'">link</button>
+        <button type="button" onclick="window.location.href='../site/history.html'">history vision</button>
+    </div>
+    <div style="display: flex;flex-direction:column;width: 80%;">
+        <div class="word">Ready?</div>
+        <div class="word">Let's Go!</div>
+    </div>
+</body>
+</html> 
